@@ -46,6 +46,15 @@ body{
 }
 .team .team-item:hover{
     background-color: aliceblue;
-    color:black;
-    
+    color:black;   
+}
+
+@media screen and (max-width:768px) {
+    .team{
+        display: grid;
+        text-align: center;
+    }
+    .team .team-item{
+        border-bottom:1px solid white
+    }
 }
